@@ -1,0 +1,12 @@
+### get user
+GET http://localhost:7000/account/1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxNCwibmFtYSI6Im15IG5hbWUiLCJlbWFpbCI6ImVtYWlsNUBlbWFpbC5jb20iLCJsZXZlbCI6ImFkbWluIn0sImlhdCI6MTY0NTk3MTIyMSwiZXhwIjoxNjQ1OTcxMjM2fQ.1Hk_DTZKehrW3DH2pYPJZYh305XKvJhX2U0iB8BENDg
+
+### login user
+POST http://localhost:7000/auth/login
+Content-Type: application/json
+
+{
+    "email": "email5@email.com",
+    "password": "12345"
+}

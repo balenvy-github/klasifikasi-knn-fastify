@@ -1,0 +1,149 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model Post {
+  id        Int      @id @default(autoincrement())
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  title     String   @db.VarChar(255)
+  content   String?
+  published Boolean  @default(false)
+  author    User     @relation(fields: [authorId], references: [id])
+  authorId  Int
+}
+
+model Profile {
+  id     Int     @id @default(autoincrement())
+  bio    String?
+  user   User    @relation(fields: [userId], references: [id])
+  userId Int     @unique
+}
+
+model User {
+  id      Int      @id @default(autoincrement())
+  email   String   @unique
+  name    String?
+  posts   Post[]
+  profile Profile?
+}
+
+model Blog {
+  id        Int      @id @default(autoincrement())
+  title     String   @db.VarChar(255)
+  content   String?
+  published Boolean  @default(false)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Account {
+  id        Int      @id @default(autoincrement())
+  nama      String
+  email     String   @unique
+  password  String   @db.Text
+  level     String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Parameter {
+  id             Int             @id @default(autoincrement())
+  parameter      String
+  baku_mutu      String
+  satuan         String
+  pengujian      Boolean         @default(false)
+  kode_pengujian String?         @default("")
+  DataUjiDetail  DataUjiDetail[]
+  createdAt      DateTime        @default(now())
+  updatedAt      DateTime        @updatedAt
+}
+
+model Lokasi {
+  id          Int      @id @default(autoincrement())
+  nama_lokasi String   @db.VarChar(255)
+  titiks      Titik[]
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model Titik {
+  id         Int       @id @default(autoincrement())
+  nama_titik String    @db.VarChar(255)
+  koordinat  String    @db.VarChar(255)
+  Lokasi     Lokasi?   @relation(fields: [lokasiId], references: [id])
+  lokasiId   Int
+  dataujis   DataUji[]
+  createdAt  DateTime  @default(now())
+  updatedAt  DateTime  @updatedAt
+}
+
+model DataUji {
+  id             Int             @id @default(autoincrement())
+  nomor_uji      String
+  tahun          Int
+  bulan          Int
+  Titik          Titik?          @relation(fields: [titikId], references: [id])
+  titikId        Int
+  createdAt      DateTime        @default(now())
+  updatedAt      DateTime        @updatedAt
+  dataujidetails DataUjiDetail[]
+  klasifikasi    Klasifikasi[]
+}
+
+model DataUjiDetail {
+  id          Int       @id @default(autoincrement())
+  hasil_uji   Int
+  Parameter   Parameter @relation(fields: [parameterId], references: [id])
+  parameterId Int
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  DataUji     DataUji   @relation(fields: [dataUjiId], references: [id])
+  dataUjiId   Int
+}
+
+model KnnKlasifikasi {
+  id        Int      @id @default(autoincrement())
+  pm10      Int
+  so2       Int
+  co        Int
+  o3        Int
+  no2       Int
+  kategori  String
+  sesuai    Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Klasifikasi {
+  id         Int      @id @default(autoincrement())
+  pm10       Int
+  so2        Int
+  co         Int
+  o3         Int
+  no2        Int
+  kategori   String
+  konfirmasi Boolean  @default(false)
+  datauji    DataUji? @relation(fields: [dataUjiId], references: [id])
+  dataUjiId  Int?
+}
+
+model HasilTraining {
+  id                     Int      @id @default(autoincrement())
+  jumlah_data            Int
+  jumlah_data_train      Int
+  jumlah_data_test       Int
+  jumlah_data_test_benar Int
+  jumlah_data_test_salah Int
+  akurasi                String
+  createdAt              DateTime @default(now())
+  updatedAt              DateTime @updatedAt
+}

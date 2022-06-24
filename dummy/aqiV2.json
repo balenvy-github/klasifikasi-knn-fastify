@@ -1,0 +1,1074 @@
+[
+    {
+      "pm10": 30,
+      "so2": 20,
+      "co": 10,
+      "o3": 32,
+      "no2": 9,
+      "kategori": "BAIK"
+    },
+    {
+      "pm10": 27,
+      "so2": 22,
+      "co": 12,
+      "o3": 29,
+      "no2": 8,
+      "kategori": "BAIK"
+    },
+    {
+      "pm10": 39,
+      "so2": 22,
+      "co": 14,
+      "o3": 32,
+      "no2": 10,
+      "kategori": "BAIK"
+    },
+    {
+      "pm10": 34,
+      "so2": 22,
+      "co": 14,
+      "o3": 38,
+      "no2": 10,
+      "kategori": "BAIK"
+    },
+    {
+      "pm10": 35,
+      "so2": 22,
+      "co": 12,
+      "o3": 31,
+      "no2": 9,
+      "kategori": "BAIK"
+    },
+    {
+      "pm10": 46,
+      "so2": 23,
+      "co": 16,
+      "o3": 32,
+      "no2": 9,
+      "kategori": "BAIK"
+    },
+    {
+      "pm10": 37,
+      "so2": 23,
+      "co": 26,
+      "o3": 33,
+      "no2": 11,
+      "kategori": "BAIK"
+    },
+    {
+      "pm10": 41,
+      "so2": 26,
+      "co": 20,
+      "o3": 30,
+      "no2": 11,
+      "kategori": "BAIK"
+    },
+    {
+      "pm10": 52,
+      "so2": 23,
+      "co": 29,
+      "o3": 24,
+      "no2": 12,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 24,
+      "so2": 24,
+      "co": 18,
+      "o3": 25,
+      "no2": 8,
+      "kategori": "BAIK"
+    },
+    {
+      "pm10": 34,
+      "so2": 31,
+      "co": 25,
+      "o3": 23,
+      "no2": 8,
+      "kategori": "BAIK"
+    },
+    {
+      "pm10": 27,
+      "so2": 23,
+      "co": 9,
+      "o3": 33,
+      "no2": 4,
+      "kategori": "BAIK"
+    },
+    {
+      "pm10": 33,
+      "so2": 26,
+      "co": 12,
+      "o3": 36,
+      "no2": 8,
+      "kategori": "BAIK"
+    },
+    {
+      "pm10": 34,
+      "so2": 28,
+      "co": 13,
+      "o3": 27,
+      "no2": 7,
+      "kategori": "BAIK"
+    },
+    {
+      "pm10": 29,
+      "so2": 22,
+      "co": 13,
+      "o3": 36,
+      "no2": 8,
+      "kategori": "BAIK"
+    },
+    {
+      "pm10": 52,
+      "so2": 60,
+      "co": 19,
+      "o3": 30,
+      "no2": 8,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 51,
+      "so2": 34,
+      "co": 21,
+      "o3": 74,
+      "no2": 20,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 37,
+      "so2": 29,
+      "co": 14,
+      "o3": 31,
+      "no2": 6,
+      "kategori": "BAIK"
+    },
+    {
+      "pm10": 61,
+      "so2": 34,
+      "co": 36,
+      "o3": 58,
+      "no2": 15,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 47,
+      "so2": 30,
+      "co": 15,
+      "o3": 33,
+      "no2": 9,
+      "kategori": "BAIK"
+    },
+    {
+      "pm10": 30,
+      "so2": 36,
+      "co": 14,
+      "o3": 26,
+      "no2": 9,
+      "kategori": "BAIK"
+    },
+    {
+      "pm10": 40,
+      "so2": 36,
+      "co": 18,
+      "o3": 28,
+      "no2": 15,
+      "kategori": "BAIK"
+    },
+    {
+      "pm10": 49,
+      "so2": 11,
+      "co": 23,
+      "o3": 38,
+      "no2": 19,
+      "kategori": "BAIK"
+    },
+    {
+      "pm10": 38,
+      "so2": 12,
+      "co": 21,
+      "o3": 35,
+      "no2": 20,
+      "kategori": "BAIK"
+    },
+    {
+      "pm10": 44,
+      "so2": 10,
+      "co": 22,
+      "o3": 25,
+      "no2": 16,
+      "kategori": "BAIK"
+    },
+    {
+      "pm10": 31,
+      "so2": 7,
+      "co": 8,
+      "o3": 41,
+      "no2": 5,
+      "kategori": "BAIK"
+    },
+    {
+      "pm10": 23,
+      "so2": 7,
+      "co": 9,
+      "o3": 35,
+      "no2": 6,
+      "kategori": "BAIK"
+    },
+    {
+      "pm10": 47,
+      "so2": 7,
+      "co": 16,
+      "o3": 45,
+      "no2": 8,
+      "kategori": "BAIK"
+    },
+    {
+      "pm10": 45,
+      "so2": 7,
+      "co": 10,
+      "o3": 44,
+      "no2": 8,
+      "kategori": "BAIK"
+    },
+    {
+      "pm10": 41,
+      "so2": 7,
+      "co": 11,
+      "o3": 44,
+      "no2": 6,
+      "kategori": "BAIK"
+    },
+    {
+      "pm10": 54,
+      "so2": 7,
+      "co": 16,
+      "o3": 41,
+      "no2": 8,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 46,
+      "so2": 7,
+      "co": 30,
+      "o3": 45,
+      "no2": 8,
+      "kategori": "BAIK"
+    },
+    {
+      "pm10": 51,
+      "so2": 8,
+      "co": 17,
+      "o3": 48,
+      "no2": 8,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 64,
+      "so2": 7,
+      "co": 24,
+      "o3": 45,
+      "no2": 10,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 43,
+      "so2": 8,
+      "co": 19,
+      "o3": 32,
+      "no2": 9,
+      "kategori": "BAIK"
+    },
+    {
+      "pm10": 44,
+      "so2": 8,
+      "co": 20,
+      "o3": 35,
+      "no2": 9,
+      "kategori": "BAIK"
+    },
+    {
+      "pm10": 34,
+      "so2": 7,
+      "co": 11,
+      "o3": 34,
+      "no2": 5,
+      "kategori": "BAIK"
+    },
+    {
+      "pm10": 37,
+      "so2": 8,
+      "co": 9,
+      "o3": 35,
+      "no2": 7,
+      "kategori": "BAIK"
+    },
+    {
+      "pm10": 32,
+      "so2": 8,
+      "co": 7,
+      "o3": 35,
+      "no2": 9,
+      "kategori": "BAIK"
+    },
+    {
+      "pm10": 33,
+      "so2": 7,
+      "co": 11,
+      "o3": 37,
+      "no2": 9,
+      "kategori": "BAIK"
+    },
+    {
+      "pm10": 51,
+      "so2": 7,
+      "co": 16,
+      "o3": 39,
+      "no2": 10,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 86,
+      "so2": 14,
+      "co": 26,
+      "o3": 81,
+      "no2": 11,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 41,
+      "so2": 7,
+      "co": 10,
+      "o3": 44,
+      "no2": 7,
+      "kategori": "BAIK"
+    },
+    {
+      "pm10": 73,
+      "so2": 10,
+      "co": 50,
+      "o3": 92,
+      "no2": 15,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 53,
+      "so2": 8,
+      "co": 13,
+      "o3": 35,
+      "no2": 6,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 34,
+      "so2": 7,
+      "co": 11,
+      "o3": 30,
+      "no2": 8,
+      "kategori": "BAIK"
+    },
+    {
+      "pm10": 62,
+      "so2": 10,
+      "co": 15,
+      "o3": 44,
+      "no2": 7,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 39,
+      "so2": 8,
+      "co": 12,
+      "o3": 26,
+      "no2": 8,
+      "kategori": "BAIK"
+    },
+    {
+      "pm10": 55,
+      "so2": 10,
+      "co": 21,
+      "o3": 25,
+      "no2": 7,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 30,
+      "so2": 7,
+      "co": 24,
+      "o3": 28,
+      "no2": 8,
+      "kategori": "BAIK"
+    },
+    {
+      "pm10": 58,
+      "so2": 12,
+      "co": 30,
+      "o3": 75,
+      "no2": 7,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 48,
+      "so2": 11,
+      "co": 10,
+      "o3": 83,
+      "no2": 7,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 52,
+      "so2": 8,
+      "co": 19,
+      "o3": 67,
+      "no2": 6,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 34,
+      "so2": 7,
+      "co": 9,
+      "o3": 40,
+      "no2": 7,
+      "kategori": "BAIK"
+    },
+    {
+      "pm10": 53,
+      "so2": 7,
+      "co": 15,
+      "o3": 35,
+      "no2": 7,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 52,
+      "so2": 12,
+      "co": 25,
+      "o3": 57,
+      "no2": 4,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 62,
+      "so2": 11,
+      "co": 39,
+      "o3": 46,
+      "no2": 7,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 47,
+      "so2": 10,
+      "co": 20,
+      "o3": 44,
+      "no2": 5,
+      "kategori": "BAIK"
+    },
+    {
+      "pm10": 67,
+      "so2": 11,
+      "co": 58,
+      "o3": 46,
+      "no2": 13,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 44,
+      "so2": 11,
+      "co": 16,
+      "o3": 63,
+      "no2": 6,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 67,
+      "so2": 11,
+      "co": 41,
+      "o3": 78,
+      "no2": 12,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 52,
+      "so2": 12,
+      "co": 40,
+      "o3": 119,
+      "no2": 12,
+      "kategori": "TIDAK SEHAT"
+    },
+    {
+      "pm10": 44,
+      "so2": 12,
+      "co": 25,
+      "o3": 60,
+      "no2": 5,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 76,
+      "so2": 14,
+      "co": 62,
+      "o3": 110,
+      "no2": 10,
+      "kategori": "TIDAK SEHAT"
+    },
+    {
+      "pm10": 50,
+      "so2": 12,
+      "co": 20,
+      "o3": 65,
+      "no2": 6,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 62,
+      "so2": 12,
+      "co": 41,
+      "o3": 50,
+      "no2": 15,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 58,
+      "so2": 12,
+      "co": 43,
+      "o3": 64,
+      "no2": 13,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 53,
+      "so2": 14,
+      "co": 24,
+      "o3": 59,
+      "no2": 6,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 50,
+      "so2": 14,
+      "co": 31,
+      "o3": 44,
+      "no2": 12,
+      "kategori": "BAIK"
+    },
+    {
+      "pm10": 40,
+      "so2": 14,
+      "co": 34,
+      "o3": 35,
+      "no2": 5,
+      "kategori": "BAIK"
+    },
+    {
+      "pm10": 45,
+      "so2": 15,
+      "co": 43,
+      "o3": 84,
+      "no2": 9,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 36,
+      "so2": 14,
+      "co": 29,
+      "o3": 78,
+      "no2": 11,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 62,
+      "so2": 13,
+      "co": 39,
+      "o3": 74,
+      "no2": 9,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 70,
+      "so2": 13,
+      "co": 42,
+      "o3": 79,
+      "no2": 10,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 45,
+      "so2": 14,
+      "co": 27,
+      "o3": 54,
+      "no2": 8,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 45,
+      "so2": 36,
+      "co": 25,
+      "o3": 46,
+      "no2": 5,
+      "kategori": "BAIK"
+    },
+    {
+      "pm10": 51,
+      "so2": 37,
+      "co": 15,
+      "o3": 46,
+      "no2": 6,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 48,
+      "so2": 38,
+      "co": 14,
+      "o3": 51,
+      "no2": 5,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 40,
+      "so2": 39,
+      "co": 19,
+      "o3": 50,
+      "no2": 5,
+      "kategori": "BAIK"
+    },
+    {
+      "pm10": 56,
+      "so2": 37,
+      "co": 33,
+      "o3": 41,
+      "no2": 6,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 50,
+      "so2": 38,
+      "co": 18,
+      "o3": 47,
+      "no2": 6,
+      "kategori": "BAIK"
+    },
+    {
+      "pm10": 52,
+      "so2": 40,
+      "co": 16,
+      "o3": 47,
+      "no2": 5,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 82,
+      "so2": 38,
+      "co": 31,
+      "o3": 30,
+      "no2": 6,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 44,
+      "so2": 37,
+      "co": 18,
+      "o3": 33,
+      "no2": 6,
+      "kategori": "BAIK"
+    },
+    {
+      "pm10": 36,
+      "so2": 38,
+      "co": 20,
+      "o3": 30,
+      "no2": 5,
+      "kategori": "BAIK"
+    },
+    {
+      "pm10": 43,
+      "so2": 38,
+      "co": 9,
+      "o3": 43,
+      "no2": 2,
+      "kategori": "BAIK"
+    },
+    {
+      "pm10": 33,
+      "so2": 38,
+      "co": 11,
+      "o3": 51,
+      "no2": 3,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 32,
+      "so2": 32,
+      "co": 11,
+      "o3": 48,
+      "no2": 6,
+      "kategori": "BAIK"
+    },
+    {
+      "pm10": 35,
+      "so2": 29,
+      "co": 10,
+      "o3": 52,
+      "no2": 5,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 70,
+      "so2": 30,
+      "co": 37,
+      "o3": 63,
+      "no2": 5,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 71,
+      "so2": 29,
+      "co": 36,
+      "o3": 125,
+      "no2": 6,
+      "kategori": "TIDAK SEHAT"
+    },
+    {
+      "pm10": 59,
+      "so2": 30,
+      "co": 15,
+      "o3": 75,
+      "no2": 6,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 76,
+      "so2": 31,
+      "co": 71,
+      "o3": 94,
+      "no2": 5,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 56,
+      "so2": 31,
+      "co": 13,
+      "o3": 50,
+      "no2": 7,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 54,
+      "so2": 30,
+      "co": 17,
+      "o3": 50,
+      "no2": 4,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 82,
+      "so2": 31,
+      "co": 25,
+      "o3": 53,
+      "no2": 5,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 60,
+      "so2": 32,
+      "co": 20,
+      "o3": 44,
+      "no2": 7,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 71,
+      "so2": 30,
+      "co": 22,
+      "o3": 29,
+      "no2": 5,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 37,
+      "so2": 29,
+      "co": 26,
+      "o3": 35,
+      "no2": 3,
+      "kategori": "BAIK"
+    },
+    {
+      "pm10": 63,
+      "so2": 30,
+      "co": 29,
+      "o3": 71,
+      "no2": 4,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 47,
+      "so2": 30,
+      "co": 13,
+      "o3": 73,
+      "no2": 4,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 63,
+      "so2": 30,
+      "co": 27,
+      "o3": 92,
+      "no2": 5,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 33,
+      "so2": 30,
+      "co": 14,
+      "o3": 80,
+      "no2": 5,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 56,
+      "so2": 30,
+      "co": 18,
+      "o3": 37,
+      "no2": 5,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 22,
+      "so2": 15,
+      "co": 24,
+      "o3": 102,
+      "no2": 7,
+      "kategori": "TIDAK SEHAT"
+    },
+    {
+      "pm10": 44,
+      "so2": 17,
+      "co": 21,
+      "o3": 63,
+      "no2": 7,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 40,
+      "so2": 18,
+      "co": 19,
+      "o3": 85,
+      "no2": 9,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 37,
+      "so2": 21,
+      "co": 18,
+      "o3": 62,
+      "no2": 5,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 58,
+      "so2": 18,
+      "co": 28,
+      "o3": 64,
+      "no2": 9,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 36,
+      "so2": 18,
+      "co": 39,
+      "o3": 66,
+      "no2": 9,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 49,
+      "so2": 21,
+      "co": 22,
+      "o3": 70,
+      "no2": 10,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 60,
+      "so2": 14,
+      "co": 41,
+      "o3": 71,
+      "no2": 11,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 25,
+      "so2": 17,
+      "co": 17,
+      "o3": 47,
+      "no2": 7,
+      "kategori": "BAIK"
+    },
+    {
+      "pm10": 36,
+      "so2": 17,
+      "co": 22,
+      "o3": 80,
+      "no2": 9,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 24,
+      "so2": 18,
+      "co": 13,
+      "o3": 46,
+      "no2": 3,
+      "kategori": "BAIK"
+    },
+    {
+      "pm10": 34,
+      "so2": 24,
+      "co": 15,
+      "o3": 50,
+      "no2": 4,
+      "kategori": "BAIK"
+    },
+    {
+      "pm10": 40,
+      "so2": 26,
+      "co": 17,
+      "o3": 33,
+      "no2": 7,
+      "kategori": "BAIK"
+    },
+    {
+      "pm10": 25,
+      "so2": 16,
+      "co": 15,
+      "o3": 51,
+      "no2": 4,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 65,
+      "so2": 18,
+      "co": 30,
+      "o3": 57,
+      "no2": 5,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 67,
+      "so2": 20,
+      "co": 35,
+      "o3": 98,
+      "no2": 10,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 41,
+      "so2": 18,
+      "co": 17,
+      "o3": 52,
+      "no2": 7,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 76,
+      "so2": 18,
+      "co": 50,
+      "o3": 66,
+      "no2": 7,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 43,
+      "so2": 16,
+      "co": 19,
+      "o3": 45,
+      "no2": 8,
+      "kategori": "BAIK"
+    },
+    {
+      "pm10": 52,
+      "so2": 18,
+      "co": 21,
+      "o3": 41,
+      "no2": 8,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 57,
+      "so2": 17,
+      "co": 34,
+      "o3": 47,
+      "no2": 9,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 55,
+      "so2": 15,
+      "co": 29,
+      "o3": 50,
+      "no2": 10,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 46,
+      "so2": 15,
+      "co": 27,
+      "o3": 40,
+      "no2": 7,
+      "kategori": "BAIK"
+    },
+    {
+      "pm10": 36,
+      "so2": 14,
+      "co": 27,
+      "o3": 80,
+      "no2": 6,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 57,
+      "so2": 16,
+      "co": 42,
+      "o3": 89,
+      "no2": 7,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 31,
+      "so2": 14,
+      "co": 17,
+      "o3": 58,
+      "no2": 7,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 65,
+      "so2": 16,
+      "co": 35,
+      "o3": 65,
+      "no2": 9,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 56,
+      "so2": 17,
+      "co": 25,
+      "o3": 73,
+      "no2": 5,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 27,
+      "so2": 19,
+      "co": 16,
+      "o3": 61,
+      "no2": 8,
+      "kategori": "SEDANG"
+    },
+    {
+      "pm10": 46,
+      "so2": 16,
+      "co": 24,
+      "o3": 44,
+      "no2": 7,
+      "kategori": "BAIK"
+    }
+  ]
