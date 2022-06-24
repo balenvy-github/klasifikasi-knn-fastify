@@ -137,13 +137,29 @@ model Klasifikasi {
 }
 
 model HasilTraining {
-  id                     Int      @id @default(autoincrement())
+  id                     Int             @id @default(autoincrement())
   jumlah_data            Int
   jumlah_data_train      Int
   jumlah_data_test       Int
   jumlah_data_test_benar Int
   jumlah_data_test_salah Int
   akurasi                String
-  createdAt              DateTime @default(now())
-  updatedAt              DateTime @updatedAt
+  createdAt              DateTime        @default(now())
+  updatedAt              DateTime        @updatedAt
+  hasilujisalahs         HasilUjiSalah[]
+}
+
+model HasilUjiSalah {
+  id              Int            @id @default(autoincrement())
+  pm10            Int
+  so2             Int
+  co              Int
+  o3              Int
+  no2             Int
+  kategori        String
+  knn             String
+  createdAt       DateTime       @default(now())
+  updatedAt       DateTime       @updatedAt
+  HasilTraining   HasilTraining? @relation(fields: [hasilTrainingId], references: [id])
+  hasilTrainingId Int?
 }

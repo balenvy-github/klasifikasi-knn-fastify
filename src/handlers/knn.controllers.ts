@@ -159,7 +159,7 @@ export async function trainingDatatrain(request: FastifyRequest, reply: FastifyR
           o3: item[3],
           no2: item[4],
           kategori: testSetLabel[index][0],
-          labelKnn: testResultLabel[index][0],
+          knn: testResultLabel[index][0],
         };
       }
       return null;
@@ -167,23 +167,7 @@ export async function trainingDatatrain(request: FastifyRequest, reply: FastifyR
 
     const errorData = testingData.filter((el) => el !== null);
 
-    // update ujidata.json
-
-    // deleted cause nodemon reload way too long and make client crash, now we use db instead
-
-    // const jsonString = fs.readFileSync(path.resolve(__dirname, '../../dummy/ujidata.json'));
-    // const ujiData = JSON.parse(jsonString.toString());
-    // ujiData.jumlah_data = data.length;
-    // ujiData.jumlah_data_train = separationSize;
-    // ujiData.jumlah_data_test = testSetLength;
-    // ujiData.jumlah_data_test_benar = predictionTrue;
-    // ujiData.jumlah_data_test_salah = predictionError;
-    // ujiData.akurasi = `${persenAkurasi}%`;
-
-    // fs.writeFileSync(path.resolve(__dirname, '../../dummy/ujidata.json'), JSON.stringify(ujiData));
-
-    // deleted cause nodemon reload way too long and make client crash, now we use db instead
-
+    // insert result to db
     const dataInsert = {
       jumlah_data: data.length,
       jumlah_data_train: Math.round(separationSize),
@@ -191,9 +175,12 @@ export async function trainingDatatrain(request: FastifyRequest, reply: FastifyR
       jumlah_data_test_benar: predictionTrue,
       jumlah_data_test_salah: predictionError,
       akurasi: `${persenAkurasi}%`,
+      hasilujisalahs: {
+        create: errorData,
+      },
     };
+
     await knnInsertTrainingService(dataInsert);
-    // ends update ujidata.json
 
     return reply.status(200).send({
       statusCode: 200,
@@ -205,7 +192,7 @@ export async function trainingDatatrain(request: FastifyRequest, reply: FastifyR
       jumlah_data_test_benar: predictionTrue,
       jumlah_data_test_salah: predictionError,
       akurasi: `${persenAkurasi}%`,
-      errorData,
+      klasifikasi_salah: errorData,
     });
   } catch (error) {
     return reply.status(500).send('Internal Server Error');

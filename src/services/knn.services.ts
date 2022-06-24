@@ -5,6 +5,28 @@ import shuffleArray from '../utils/shuffleArray';
 const prisma = new PrismaClient();
 const MlKnn = require('ml-knn');
 
+// type HasilUjiSalahTypes = {
+//   pm10: number;
+//   so2: number;
+//   co: number;
+//   o3: number;
+//   no2: number;
+//   kategori: string;
+//   knn: string;
+// }
+
+// type HasilTrainingTypes = {
+//   jumlah_data: number;
+//   jumlah_data_train: number;
+//   jumlah_data_test: number;
+//   jumlah_data_test_benar: number;
+//   jumlah_data_test_salah: number;
+//   akurasi: string;
+//   hasilujisalahs: {
+//       create: Array<HasilUjiSalahTypes | null>
+//   }
+// }
+
 export const knnCreateManyService = async (input: Array<Prisma.KnnKlasifikasiCreateManyInput>) => {
   const data = await prisma.knnKlasifikasi.createMany({
     data: input,
@@ -85,7 +107,7 @@ export const knnTrainingService = async () => {
   let jsondata = await knnSelectAllService();
 
   jsondata = shuffleArray(jsondata);
-  const separationSize = 0.95 * jsondata.length;
+  const separationSize = 0.8 * jsondata.length;
 
   // convert object to array *array is the format for the lib
   for (let i = 0; i < jsondata.length; i += 1) {
@@ -137,7 +159,9 @@ export const knnTestingService = (knn: any, testSetData: any, testSetLabel: any)
   return data;
 };
 
-export const knnInsertTrainingService = async (input: Prisma.HasilTrainingCreateInput) => {
+export const knnInsertTrainingService = async (
+  input: any,
+) => {
   const data = await prisma.hasilTraining.create({
     data: input,
   });
@@ -149,6 +173,9 @@ export const knnGetHasilTrainingService = async () => {
   const data = await prisma.hasilTraining.findFirst({
     orderBy: {
       id: 'desc',
+    },
+    include: {
+      hasilujisalahs: true,
     },
   });
 
