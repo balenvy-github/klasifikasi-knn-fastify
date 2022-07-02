@@ -107,7 +107,7 @@ export const knnTrainingService = async () => {
   let jsondata = await knnSelectAllService();
 
   jsondata = shuffleArray(jsondata);
-  const separationSize = 0.8 * jsondata.length;
+  const separationSize = 0.7 * jsondata.length;
 
   // convert object to array *array is the format for the lib
   for (let i = 0; i < jsondata.length; i += 1) {
@@ -123,7 +123,7 @@ export const knnTrainingService = async () => {
   const testSetLabel = labelTrain.slice(separationSize);
 
   // train the data
-  const knn = new MlKnn(trainingSetData, trainingSetLabel, { k: 5 });
+  const knn = new MlKnn(trainingSetData, trainingSetLabel, { k: 3 });
 
   const data = {
     data: jsondata,
